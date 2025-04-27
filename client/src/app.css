@@ -1,0 +1,48 @@
+input {
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.center  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.chat-wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 20px;
+    height: 500px;
+    border: 3px solid coral;
+    border-radius: 10px;
+}
+
+.form {
+    align-self: end;
+}
+
+.text {
+    border: 3px solid coral;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-right: 10px;
+}
+
+.btn {
+    color: blue;
+    outline: 3px solid blue;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+

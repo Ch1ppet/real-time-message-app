@@ -30,17 +30,17 @@ const LongPullling = () => {
 
     return (
         <div className="center">
-            <div>
-                <div className="form">
-                    <input value={value} onChange={e => setValue(e.target.value)} type="text" className="text" />
-                    <button onClick={sendMessage} className="btn">Submit</button>
-                </div>
+            <div className="chat-wrapper">
                 <div className="messages">
                     {messages.map(mess => {
                         <div className="message" key={mess.id}>
                             {mess.message}
                         </div>
                     })}
+                </div>
+                <div className="form">
+                    <input value={value} onChange={e => setValue(e.target.value)} type="text" className="text" />
+                    <button onClick={sendMessage} className="btn">SUBMIT</button>
                 </div>
             </div>
         </div>
